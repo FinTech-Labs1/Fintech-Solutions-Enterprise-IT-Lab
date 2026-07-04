@@ -122,7 +122,7 @@ The server was successfully prepared for enterprise infrastructure deployment.
 
 **Purpose:** Displays the Local Server configuration before Domain Controller promotion.
 
-![Local Server Configuration](../Screenshots/Day-01/05-Local-server-configuration.png)
+![Local Server Configuration](../Screenshots/Day-01/05--Local-Server-Configuration.png)
 
 ### Computer Renamed
 
