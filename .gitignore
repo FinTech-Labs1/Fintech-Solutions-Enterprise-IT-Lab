@@ -1,0 +1,26 @@
+# VMware
+Virtual Machines/
+*.vmdk
+*.vmsn
+*.vmem
+*.vmss
+*.nvram
+*.vmxf
+*.vmsd
+*.lck
+*.log
+
+# ISO Images
+ISO Files/
+*.iso
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Temporary
+*.tmp
+*.bak
