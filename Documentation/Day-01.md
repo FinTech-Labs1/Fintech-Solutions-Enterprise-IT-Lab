@@ -122,13 +122,13 @@ The server was successfully prepared for enterprise infrastructure deployment.
 
 **Purpose:** Displays the Local Server configuration before Domain Controller promotion.
 
-![Local Server Configuration](../Screenshots/Day-01/05-Local-Server-Configuration.png)
+![Local Server Configuration](../Screenshots/Day-01/05-Local-server-Configuration.png)
 
 ### Computer Renamed
 
 **Purpose:** Confirms the server hostname was successfully changed to **DC01**.
 
-![Computer Renamed](../Screenshots/Day-01/06-Computer-Renamed.png)
+![Computer Renamed](../Screenshots/Day-01/06-Computer-renamed.png)
 
 ### VMware Snapshot
 
