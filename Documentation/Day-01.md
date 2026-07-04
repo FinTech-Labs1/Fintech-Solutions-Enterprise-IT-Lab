@@ -162,7 +162,7 @@ DC01 now operates with a permanent enterprise network configuration suitable for
 
 **Purpose:** Displays the VMware Host-Only virtual network used throughout the Enterprise IT Lab.
 
-![VMware Host-Only Network](../Screenshots/Day-01/08-VMware-HostOnly-Network.png)
+![VMware Host-Only Network](../Screenshots/Day-01/08-VMware-Host-Only-Network.png)
 
 ### Static IP Configuration
 
