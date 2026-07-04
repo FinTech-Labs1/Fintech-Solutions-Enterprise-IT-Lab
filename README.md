@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository documents the development of a simulated enterprise IT infrastructure built with VMware Workstation Pro.
+This repository documents the design, deployment, and administration of a simulated enterprise IT infrastructure built using VMware Workstation Pro.
 
-The objective of this project is to gain practical experience in enterprise Windows administration by deploying and managing a Windows Server environment with Active Directory Domain Services (AD DS), DNS, Group Policy, and Windows Enterprise clients.
+The goal of this project is to gain hands-on experience in enterprise Windows Server administration by deploying and managing a production-like Active Directory environment that includes Windows Server 2022, Active Directory Domain Services (AD DS), DNS, Group Policy, Windows 11 Enterprise clients, and Linux servers.
 
-This project is documented as a real-world engineering journal, with each milestone accompanied by screenshots and technical notes.
+Every deployment is documented as a real-world engineering journal, with technical notes, screenshots, and deployment milestones.
 
 ---
 
@@ -18,6 +18,7 @@ This project is documented as a real-world engineering journal, with each milest
 - Ubuntu Server
 - Active Directory Domain Services (AD DS)
 - DNS
+- Group Policy
 - VMware Virtual Networking
 - Git & GitHub
 - Visual Studio Code
@@ -26,51 +27,52 @@ This project is documented as a real-world engineering journal, with each milest
 ---
 
 ## Enterprise Lab Architecture
-
-```text
                     VMware Workstation Pro
                              │
                ┌─────────────┴─────────────┐
                │                           │
-           DC01 Server              Windows 11 Client
-      Windows Server 2022         Windows 11 Enterprise
+        DC01 Domain Controller      Windows 11 Enterprise
+        Windows Server 2022              Client Computer
                │
-     Active Directory
+     Active Directory Domain Services
                │
               DNS
                │
          Group Policy
-```
 
 ---
 
 ## Progress
 
-### ✅ Day 1
+### ✅ Day 1 – Enterprise Infrastructure Deployment
 
-- VMware Workstation deployment
-- Windows Server installation
-- Enterprise network configuration
-- Static IP configuration
-- Active Directory installation
-- Domain Controller promotion
-- DNS deployment
-- Technical documentation
-- Screenshot documentation
+Completed:
+
+- Enterprise Lab Project Initialization
+- VMware Workstation Deployment
+- Windows Server 2022 Deployment
+- Initial Server Configuration
+- Enterprise Network Configuration
+- Active Directory Domain Services Deployment
+- Domain Controller Promotion
+- DNS Configuration
+- Technical Documentation
+- Deployment Screenshot Documentation
 
 ---
 
 ## Upcoming
 
-### Day 2
+### 🚧 Day 2
 
 - Organizational Units (OUs)
-- User Accounts
+- User Account Management
 - Security Groups
-- Windows 11 Domain Join
-- Group Policy Objects
-- Shared Folders
-- File Server
+- Windows 11 Enterprise Deployment
+- Domain Join
+- Group Policy Objects (GPOs)
+- Shared Folder Configuration
+- File Server Administration
 
 ---
 
@@ -78,20 +80,22 @@ This project is documented as a real-world engineering journal, with each milest
 
 - Systems Administration
 - Windows Server Administration
-- Active Directory
-- DNS
+- Active Directory Administration
+- Domain Controller Deployment
+- DNS Configuration
 - Enterprise Networking
 - VMware Virtualization
 - Technical Documentation
-- IT Infrastructure Deployment
+- Enterprise Infrastructure Deployment
 
 ---
 
 ## Author
 
-**Fiyinfoluwa Orija**
+Fiyinfoluwa Orija
 
-Aspiring IT Support Specialist | Systems Administrator
+Aspiring IT Support Specialist | Junior Systems Administrator
 
-LinkedIn:
+LinkedIn
+
 https://www.linkedin.com/in/fintech-labs/
